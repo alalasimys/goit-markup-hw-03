@@ -34,12 +34,13 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+p {
   margin-top: 0;
 }
 
 img {
-  display: block;
+  display: inline-block;
   max-width: 100%;
   height: auto;
 }
@@ -62,6 +63,12 @@ header {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.container {
+  width: 1230px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .logo-color {
