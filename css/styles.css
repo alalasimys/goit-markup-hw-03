@@ -34,13 +34,16 @@ h1,
 h2,
 h3,
 h4,
-h5,
-p {
+h5 {
   margin-top: 0;
 }
 
+p {
+  margin: 0;
+}
+
 img {
-  display: inline-block;
+  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -145,6 +148,10 @@ header {
 .main-nav {
   display: flex;
   align-items: center;
+}
+
+header {
+  border-bottom: 1px solid #ececec;
 }
 
 .header-wrap {
